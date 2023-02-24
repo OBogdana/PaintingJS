@@ -28,7 +28,7 @@ ctx.stroke();
 function Circle(x, y, radius, fillCircle){
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, Math.PI * 2, false);
-    if (fillCircle === true){
+    if (fillCircle){
         ctx.fill();
     }
     ctx.stroke();
