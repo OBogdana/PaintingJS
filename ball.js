@@ -42,7 +42,7 @@ setInterval(function () {
     ball.draw();
     ball.move();
     ball.checkCollision();
-
+    ctx.fillStyle = "Gold";
     ctx.strokeRect(0,0,800,800);
 }, 10);
 
